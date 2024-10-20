@@ -8,7 +8,7 @@ ModAPI.addEventListener("lib:libcustomitems:loaded", () => {
     console.log("Registered my cool custom item.");
     LibCustomItems.registerItem({
         tag: "custom:dirt",
-        base: "dirt",
+        base: "magma_cream",
         name: "Custom dirt",
         qty: 32,
         useRecipe: true,
